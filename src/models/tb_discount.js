@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       id: DataTypes.INTEGER,
       name: DataTypes.STRING,
-      description: DataTypes.INTEGER,
+      description: DataTypes.STRING,
       discount_type: DataTypes.STRING,
       discount_value: DataTypes.DECIMAL(8, 2),
       start_date: DataTypes.DATE,
